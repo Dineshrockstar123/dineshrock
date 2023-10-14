@@ -1,0 +1,89 @@
+ <!DOCTTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+.header{
+color: white;
+background-color: #083064;
+font-family:  Arial, Helvetica, sans-serif;
+font-size: 30px;
+font-weight: bold;
+letter-spacing: 1px;
+height: 40PX;
+padding: 20px;
+}
+.container{
+background-color: white;
+position: relative;
+color: black;
+width: 380px;
+height: 450px;
+padding: 10px 15px;
+margin: 30px auto;
+border: 3px solid black;
+border-radius: 10px;
+}
+
+.logo{
+margin: 20 0 0 0;
+display: flex;
+justify-content: center;
+}
+
+input[type="text"], input[type="password"]{
+padding: 10px;
+font-size: 15px;
+border: 1px solid black;
+margin: 10 40 15px;
+width: 80%;
+border-radius: 5px;
+}
+
+.button1 a{
+background-color: black;
+color: gold;
+padding: 10px 13px;
+font-size: 17px;
+border-radius: 5px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+border: 2px solid black;
+}
+
+.button1 a:hover{font-size:19px; padding:10 15; transition:0.5s}
+.button1 a:hover:before{content:'\00ab';}
+
+input[type=submit]{
+background-color: #083064;
+color: white;
+padding: 8px 10px;
+border: 2px solid black;
+border-radius: 5px;
+width:130px;
+font-weight: bold;
+font-size:17px;
+margin: 0 130;
+cursor: pointer;
+box-shadow: 1px 1px 1px black;
+}
+
+input[type=submit]:hover{ font-size:20px; transition:0.5s;}
+</style>
+</head>
+<body>
+<div class="header">
+<span class="button1"><a href="vit.html"> BACK</a></span>
+<span style="margin:255; font-size:35px; text-shadow: 5px 5px 10px black;">VIT UNIVERSITY - STUDENT LOGIN</span></div>
+<div class="container">
+<div class="logo"><img src="logo.png"></div><br><br>
+
+<form action="vit.html" method="post">
+<input type="text" name="username"     id="username" placeholder="Username" required>
+<input type="password" name="password" id="password" placeholder="Password" required ><br><br>
+<input type="submit" value=" LOGIN">
+</form>
+
+</body>
+</html>
